@@ -17254,6 +17254,9 @@ body p {
 body .row {
   --bs-gutter-x: 0;
 }
+body .container {
+  width: 80%;
+}
 body button {
   border: none;
   border-radius: 2px;
@@ -17283,6 +17286,28 @@ header .banner p {
   font-weight: bold;
   text-transform: uppercase;
   color: #484848;
+}
+
+#Grid {
+  line-height: 150%;
+}
+#Grid h4, #Grid .h4 {
+  color: #484848;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+}
+#Grid h5, #Grid .h5 {
+  color: #aaaaaa;
+  text-transform: uppercase;
+  font-size: x-small;
+}
+#Grid .right {
+  text-align: right;
+}
+#Grid .avatar {
+  border-radius: 50%;
+  border: 8px solid lightgrey;
 }
 
 /*# sourceMappingURL=style.css.map */
