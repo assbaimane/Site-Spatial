@@ -17328,4 +17328,14 @@ header .banner p {
   padding: 1% 4%;
 }
 
+footer {
+  color: #aaaaaa;
+}
+footer p {
+  font-size: x-small;
+}
+footer p:first-of-type, footer p:nth-of-type(2) {
+  border-right: 1px solid #aaa;
+}
+
 /*# sourceMappingURL=style.css.map */
