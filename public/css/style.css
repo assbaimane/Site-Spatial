@@ -17310,4 +17310,22 @@ header .banner p {
   border: 8px solid lightgrey;
 }
 
+#Endpage {
+  background: linear-gradient(rgba(38, 38, 58, 0.7), rgba(39, 38, 48, 0.6)), url("../img/banner.jpg");
+  background-position: 15% 50%;
+}
+#Endpage h2, #Endpage .h2, #Endpage p {
+  color: white;
+  text-transform: uppercase;
+}
+#Endpage p {
+  font-weight: 100;
+  font-size: large;
+  opacity: 0.5;
+}
+#Endpage button {
+  font-size: medium;
+  padding: 1% 4%;
+}
+
 /*# sourceMappingURL=style.css.map */
