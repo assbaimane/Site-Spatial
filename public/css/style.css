@@ -17334,8 +17334,11 @@ footer {
 footer p {
   font-size: x-small;
 }
-footer p:first-of-type, footer p:nth-of-type(2) {
-  border-right: 1px solid #aaa;
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  footer .border-end {
+    border: 0 solid !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

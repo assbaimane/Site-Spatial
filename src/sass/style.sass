@@ -29,7 +29,6 @@ body
             font-size: x-small
             padding: 2% 6%
 
-
 header
     color: white
     background: linear-gradient(rgba(38, 38, 58, 0.7),rgba(39, 38, 48, 0.6)), url("../img/banner.jpg")
@@ -83,8 +82,11 @@ footer
     color: #aaaaaa
     p
         font-size: x-small
-        &:first-of-type, &:nth-of-type(2)
-            border-right: 1px solid #aaa
+
+@media screen and (min-width:0px) and (max-width:767px)
+  footer
+    .border-end
+        border: 0 solid !important
 
 
 
